@@ -6,8 +6,7 @@ public class FlyTicketPrice {
 
         int distance, age, typeOfFlight;
         boolean isDistanceError, isAgeError, isFlightError;
-        double bill;     
-        // burda çağrı bill = 0.0 yapmış, bu intellijde uyarı verdiği için 0.0 kaldırdım.
+        double bill;
 
         System.out.print("Gidilecek mesafeyi kilometre cinsinden giriniz : ");
         distance = input.nextInt();
